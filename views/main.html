@@ -24,8 +24,8 @@
 	<thead>
 		<tr>
       <td></td>
-      <td ng-click="sort('Name')" style="cursor:pointer"><b>Name</b>
-		<span class="glyphicon sort-icon" ng-show="sortKey=='Name'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+      <td ng-click="sort('Roll_No')" style="cursor:pointer"><b>Roll_No</b>
+		<span class="glyphicon sort-icon" ng-show="sortKey=='Roll_No'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 	  </td>
 	  <td ng-click="sort('Department')" style="cursor:pointer"><b>Department</b>
 		<span class="glyphicon sort-icon" ng-show="sortKey=='Department'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
@@ -49,11 +49,11 @@
   <tbody dir-paginate="value in studentData | orderBy:sortKey:reverse | filter:customFilter(searchText) | itemsPerPage:LOCAL_SETTINGS.paginateNumEntries" >
     <tr>
       <th scope="row"><div id="profileImg" afkl-lazy-image="{{value.Link_To_Profile_Image}}"></div></th>
+	  <td>{{value.Roll_No}}</td>
 	  <td>{{value.Department}}</td>
       <td>{{value.Organization}}</td>
       <td>{{value.Location}}</td>
 	  <td>{{value.Email_Id}}</td>
-	  <td>{{value.Name}}</td>
 
       <td><a href="{{value.Facebook_Profile}}" target="_blank"><img src="logos/fb.png" height="40"></a></td>
       <td><a href="{{value.Linkedin_Profile}}" target="_blank"><img src="logos/linkedin.png" height="40"></a></td>
