@@ -4,7 +4,7 @@
 	"collegeLogoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/IIT_Kanpur_Logo.svg/1024px-IIT_Kanpur_Logo.svg.png",
 	"spreadsheetLink": "https://docs.google.com/spreadsheets/d/1crDqNzRAplhUpKuTfwgff8V8_qlssy6Zpk3Y8Gwz7jk/pubhtml",
 	"formLink":"http://bit.ly/y13iitk",
-	"about": "The whereabouts of the Y13 batch of IIT Kanpur. Inspired by (www.cs.cmu.edu/~mahim/class2001/) and (http://sid17.github.io/iitky12/#/). In case of any queries or suggestions, contact us.",
+	"about": "The whereabouts of the Y13 batch of IIT Kanpur. Inspired by (www.cs.cmu.edu/~mahim/class2001/) and (http://sid17.github.io/iitky12/#/). Originally developed by seniors from Y12(http://sid17.github.io/iitky12/#/contact) .",
 	"defaultSortEntriesBy":"Name",
 	"defaultOrderDescending":false,
 	"paginateNumEntries":10,
