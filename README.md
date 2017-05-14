@@ -1,3 +1,5 @@
+Adopted from https://github.com/sid17/iitky12/
+
 ## Batch website -Deployment Steps
 ### Step 1
 Set up the google form to collect information. For that purpose,
