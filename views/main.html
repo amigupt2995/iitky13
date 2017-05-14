@@ -46,7 +46,7 @@
     </tr>
 
 	</thead>
-  <tbody dir-paginate="value in studentData | orderBy:sortKey:reverse | filter:customFilter(searchText) | itemsPerPage:LOCAL_SETTINGS.paginateNumEntries" >
+  <tbody dir-paginate="value in batchData | orderBy:sortKey:reverse | filter:customFilter(searchText) | itemsPerPage:LOCAL_SETTINGS.paginateNumEntries" >
     <tr>
       <th scope="row"><div id="profileImg" afkl-lazy-image="{{value.Link_To_Profile_Image}}"></div></th>
 	  <td>{{value.Name}}</td>
