@@ -5,10 +5,10 @@
 	"spreadsheetLink": "https://docs.google.com/spreadsheets/d/1crDqNzRAplhUpKuTfwgff8V8_qlssy6Zpk3Y8Gwz7jk/pubhtml",
 	"formLink":"http://bit.ly/y13iitk",
 	"about": "The whereabouts of the Y13 batch of IIT Kanpur. Inspired by (www.cs.cmu.edu/~mahim/class2001/) and (http://sid17.github.io/iitky12/#/). In case of any queries or suggestions, contact us.",
-	"defaultSortEntriesBy":"Name",
+	"defaultSortEntriesBy":"Name_",
 	"defaultOrderDescending":false,
 	"paginateNumEntries":10,
-	"searchInKeys": ["Name", "Organization", "Location", "History_and_brief_bio","Department","Email_Id"],
+	"searchInKeys": ["Name_", "Organization", "Location", "History_and_brief_bio","Department","Email_Id"],
 	"defaultProfileImage":"logos/default.png",
 	"contacts": [{
 		"name": "Amit Gupta",
