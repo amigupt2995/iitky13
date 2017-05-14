@@ -45,37 +45,11 @@ app.controller('MainCtrl', function ($scope,$rootScope)
     $rootScope.reverse = $scope.LOCAL_SETTINGS.defaultOrderDescending;
     $scope.$apply();
   };
-  
-  function loadbatchInfo(data, tabletop) 
-  { 
-  $rootScope.showLoad=false; 
-    // by default don't show the load gif
-    // when load gif is displayed, we dont want to display the search box
-
-    // default profile picture for people
-    for (var key in data) 
-    {
-      if (!data[key].Link_To_Profile_Image)
-        data[key].Link_To_Profile_Image=$scope.LOCAL_SETTINGS.defaultProfileImage;
-    }
-    $rootScope.batchData=data;
-    $rootScope.sortKey = $scope.LOCAL_SETTINGS.defaultSortEntriesBy;
-    $rootScope.reverse = $scope.LOCAL_SETTINGS.defaultOrderDescending;
-    $scope.$apply();
-  };
 
   $scope.initSpreadSheet = function()
   {
      Tabletop.init( { key: $scope.LOCAL_SETTINGS.spreadsheetLink,
                      callback: loadStudentInfo,
-                     simpleSheet: true } );
-    
-  };
-  
-  $scope.batchdataSpreadSheet = function()
-  {
-     Tabletop.init( { key: $scope.LOCAL_SETTINGS.batchdataLink,
-                     callback: loadbatchInfo,
                      simpleSheet: true } );
     
   };
@@ -87,7 +61,7 @@ app.controller('MainCtrl', function ($scope,$rootScope)
 
   $scope.loadData = function ()
   {
-    if (!$rootScope.batchData)
+    if (!$rootScope.studentData)
     {
       $rootScope.showLoad=true;
       // we load the settings twice once in mainCtrl and appCtrl to prevent race conditions
@@ -99,7 +73,7 @@ app.controller('MainCtrl', function ($scope,$rootScope)
           // filter is set now since filter requires the LOCAL_SETTINGS.searchInKeys 
           // to be set
           $scope.$apply();
-          $scope.batchdataSpreadSheet();
+          $scope.initSpreadSheet();
         });
     } 
   };
