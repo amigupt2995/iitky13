@@ -4,7 +4,8 @@
 	"collegeLogoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/IIT_Kanpur_Logo.svg/1024px-IIT_Kanpur_Logo.svg.png",
 	"spreadsheetLink": "https://docs.google.com/spreadsheets/d/1JJQGWK4Q8iBtIUngL2js65W-P5EgKb1s96fnOpnhr58/pubhtml",
 	"formLink":"http://bit.ly/y13iitk",
-	"about": "The whereabouts of the Y13 batch of IIT Kanpur. Inspired by (www.cs.cmu.edu/~mahim/class2001/) and (http://sid17.github.io/iitky12/#/). Originally developed by seniors from Y12(http://sid17.github.io/iitky12/#/contact) .",
+	"about": "The whereabouts of the Y13 batch of IIT Kanpur. Inspired by (www.cs.cmu.edu/~mahim/class2001/) and (http://sid17.github.io/iitky12/#/). Originally developed by seniors from Y12(http://sid17.github.io/iitky12/#/contact).",
+	"working": "Use http://bit.ly/y13iitk to fill your whereabouts. To update information please go to the same link again and 'edit your response'. This would require sign-in with same Gmail id which was used while filling the from. "
 	"defaultSortEntriesBy":"Name",
 	"defaultOrderDescending":false,
 	"paginateNumEntries":10,
