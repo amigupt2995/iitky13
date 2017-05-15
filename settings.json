@@ -8,7 +8,7 @@
 	"working": "Use http://bit.ly/y13iitk to fill your whereabouts. To update information please go to the same link again and 'edit your response'. This would require sign-in with same Gmail id which was used while filling the form.",
 	"defaultSortEntriesBy":"Name",
 	"defaultOrderDescending":false,
-	"paginateNumEntries":10,
+	"paginateNumEntries":25,
 	"searchInKeys": ["Name", "Organization", "Location", "History_and_brief_bio","Department","Email_Id"],
 	"defaultProfileImage":"logos/default.png",
 	"contacts": [{
